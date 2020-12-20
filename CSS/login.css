@@ -25,13 +25,51 @@ body{
     color: #ffffff;
 }
 
+
 .navbar{
     color: #ffffff;
     background: #3B749F;
     box-shadow: 6px 0px 8px rgba(0, 0, 0, 0.25);
-    width: 100%;
-    display: stick;
     height: 57px;
+}
+
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.navbar-nav {
+    padding: 0;
+    list-style: none;
+    display: table;
+  }
+.nav-item {
+    display: table-cell;
+    position: relative;
+}
+.nav-link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #ffffff;
+    background: var(--nav-link-line, #ffffff);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.nav-link:hover:after {
+    width: 100%;
+    left: 0;
+  }
+.nav-link:hover{
+    color: #ffffff;
 }
 
 .content{
