@@ -28,7 +28,7 @@ body{
 
 .navbar{
     color: #ffffff;
-    background: #3B749F;
+    background: #1C4F94;
     box-shadow: 6px 0px 8px rgba(0, 0, 0, 0.25);
     height: 57px;
 }
@@ -83,13 +83,13 @@ h2{
     font-size: 32px;
     line-height: 48px;
     /* identical to box height */
-    color: #3C75A0;
+    color:  #1C4F94;
 }
 
 h4{
     font-size: 16px;
     line-height: 24px;
-    color: #3C75A0;
+    color: #202020;
 }
 
 .input-div{
