@@ -31,41 +31,30 @@ body{
 
 .navbar{
     color: #ffffff;
-    background: #1C4F94;
+    background: #3B749F;
     box-shadow: 6px 0px 8px rgba(0, 0, 0, 0.25);
-    width: 100%;
-    display: stick;
     height: 57px;
 }
 
-nav > .nav-link + .scroll{
-    color: #fff
-}
-nav + .scroll{
-    background-color: #1C4F94;
-}
 .nav-link{
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    color: black;
+    color: #ffffff;
     text-decoration: none;
     display: inline-block;
     position: relative;
 }
-.navbar-nav { 
-    margin: 150px auto 0; 
-    padding: 0; 
-    list-style: none; 
+.navbar-nav {
+    padding: 0;
+    list-style: none;
     display: table;
-    width: 600px;
-    text-align: center;
   }
-.nav-item { 
-    display: table-cell; 
-    position: relative; 
+.nav-item {
+    display: table-cell;
+    position: relative;
 }
-.nav-link:after {    
+.nav-link:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -73,15 +62,18 @@ nav + .scroll{
     height: 2px;
     left: 50%;
     position: absolute;
-    background: black;
-    background: var(--nav-link-line, #000);
+    background: #ffffff;
+    background: var(--nav-link-line, #ffffff);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-.nav-link:hover:after { 
-    width: 100%; 
-    left: 0; 
+.nav-link:hover:after {
+    width: 100%;
+    left: 0;
   }
+.nav-link:hover{
+    color: #ffffff;
+}
 
 .row{
     width: 400px;
